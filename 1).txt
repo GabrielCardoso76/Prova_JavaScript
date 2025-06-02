@@ -1,0 +1,21 @@
+1)
+a- Em JS existe alguma possibilidade de manipulação de Strings associadas a Arrays? Como isso funciona? Dê exemplos:
+R:é possível usar a propriedade de arrays em string mas o acesso pode ser imprevisível EX: 
+let texto = "HELLO WORLD";
+let caracter = texto[0];
+console.log(caracter); //H 
+mais isso não quer dizer strings são arrays, se nenhum caractere for encontrado, o array retorna undefined e o charAt() retorna string vazia.
+Obs: alguns métodos de Array pode ser associados a Strings facilitando a manipulação, já que string é um conjunto de caracteres. 
+
+b) Explique a diferença entre Math.floor(), Math.ceil() e Math.round() no arredondamento de números em JS.
+R: Math.floor() arredonda para baixo em direção ao números menores.
+
+Math.ceil() retorna o menor número inteiro maior ou igual ao número
+fornecido. Faz "arredondamento para cima", independentemente do sinal
+do número.
+
+Math.round() arredonda para o número inteiro mais próximo de um
+número de ponto flutuante, com base no valor da parte decimal
+
+c) Como objetos do tipo data são criados em JS? Em sua explicação faça uma demonstração capturando a data atual.
+R: "let dataAtual = new Date();" ou assim passando uma data especifica "let data = new Date("2025-4-18");". para capturar a data atual e so fazer isso "let dataAtual = new Date();" e para exibir tem vários jeitos mais pode ser um "console.log(dataAtual);"

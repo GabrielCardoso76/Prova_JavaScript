@@ -1,0 +1,20 @@
+3)
+a- O que é e como funciona Programação Assíncrona em JS?
+R:Quando a Programação assíncrona em js e executada ela percorre o código linha por linha de cima para baixo, e vai executando instrução por instrução uma após a outra pq o js e single-threaded tento apenas uma theread principal.
+ 
+b- Como o conceito de Single-Threaded pode afetar o
+comportamento no fluxo de tarefas no JavaScript?
+R: no javascript qualquer função que demore para ser concluída pode bloquear todas as outras tarefas de serem executadas pq o js é single-threaded.
+
+c- Qual a diferença entre promises e async await?
+R: A diferença e que a promessas e um objeto que diz se uma operação assíncrona foi um sucesso ou se deu falha. E async/await e apenas uma simples implementação de promessas.
+
+Existe
+alguma relação entre promises, async await e callbacks? Se
+sim explique:
+R:
+
+
+
+d- No contexto de JavaScript o que é event loop?
+R:event loop e uma mecânica que faz o gerenciamento de execuções de tarefas, assim priorizando código síncrono e processando call-backs assíncronos em ordem, fazendo isso não bloqueia a thread principal. 

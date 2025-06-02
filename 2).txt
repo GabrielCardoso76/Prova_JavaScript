@@ -1,0 +1,8 @@
+2)
+a- O que é uma expressão regular em JS? Qual o seu propósito?
+
+R:Normalmente o proposito esta associado a uma string quando precisamos de algum tipo de padrão, Exemplo: ela define especificações de entrada ou busca. em JavaScript elas são objetos, e podem ser utilizadas com os métodos match, replace, search, e split de uma
+string. 
+
+b) Para que serve o método .test? Qual a sua relação com a validação de strings.
+R:O método .test serve para validar um caractere feito em regex, ele analisa se o que foi enviado retornará uma string, com true ou false (um método boolean).
